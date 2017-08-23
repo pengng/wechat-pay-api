@@ -1,0 +1,29 @@
+{
+  "name": "wechat-pay",
+  "version": "0.0.1",
+  "description": "微信支付模块",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [
+    "wechat",
+    "pay",
+    "h5"
+  ],
+  "author": "pengng",
+  "license": "ISC",
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pengng/wechat-pay.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pengng/wechat-pay/issues"
+  },
+  "homepage": "https://github.com/pengng/wechat-pay#readme",
+  "dependencies": {
+    "request-client": "^1.0.0",
+    "xml2js": "^0.4.19"
+  }
+}
