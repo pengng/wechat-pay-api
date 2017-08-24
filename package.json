@@ -1,7 +1,7 @@
 {
   "name": "wechat-pay-api",
-  "version": "0.0.4",
-  "description": "微信支付模块",
+  "version": "0.0.5",
+  "description": "wechat payment tool package",
   "main": "index.js",
   "scripts": {},
   "keywords": [
