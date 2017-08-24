@@ -1,6 +1,6 @@
 {
   "name": "wechat-pay-api",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "description": "微信支付模块",
   "main": "index.js",
   "scripts": {},
@@ -24,7 +24,7 @@
   "homepage": "https://github.com/pengng/wechat-pay-api#readme",
   "dependencies": {
     "request": "^2.81.0",
-    "request-client": "^1.0.0",
+    "time-formater": "^1.0.1",
     "xml2js": "^0.4.19"
   }
 }
