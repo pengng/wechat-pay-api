@@ -92,17 +92,9 @@ WechatPayApi 实例对象。
 | --- | --- | --- |
 | return_code | string | SUCCESS/FAIL<br/>此字段是通信标识，非交易标识，交易是否成功需要查看result_code来判断 |
 | return_msg | string | 返回信息，如非空，为错误原因<br/>签名失败<br/>参数格式校验错误 |
-
-以下字段在return_code为SUCCESS的时候有返回
-
-| 名称 | 类型 | 描述 |
-| --- | --- | --- |
+| 以下字段在return_code为SUCCESS的时候有返回 |
 | result_code | string | 业务结果<br/>SUCCESS/FAIL |
-
-以下字段在return_code 和result_code都为SUCCESS的时候有返回
-
-| 名称 | 类型 | 描述 |
-| --- | --- | --- |
+| 以下字段在return_code 和result_code都为SUCCESS的时候有返回 |
 | partner_trade_no | string | 商户订单号，需保持唯一性<br/>(只能是字母或者数字，不能包含有符号) |
 | payment_no | string | 企业付款成功，返回的微信订单号 |
 | payment_time | string | 企业付款成功时间 |
@@ -132,17 +124,9 @@ WechatPayApi 实例对象。
 | --- | --- | --- |
 | return_code | string | SUCCESS/FAIL<br/>此字段是通信标识，非交易标识，交易是否成功需要查看result_code来判断 |
 | return_msg | string | 返回信息，如非空，为错误原因<br/>签名失败<br/>参数格式校验错误 |
-
-以下字段在return_code为SUCCESS的时候有返回
-
-| 名称 | 类型 | 描述 |
-| --- | --- | --- |
+| 以下字段在return_code为SUCCESS的时候有返回 |
 | result_code | string | 业务结果<br/>SUCCESS/FAIL |
-
-以下字段在return_code 和result_code都为SUCCESS的时候有返回
-
-| 名称 | 类型 | 描述 |
-| --- | --- | --- |
+| 以下字段在return_code 和result_code都为SUCCESS的时候有返回 |
 | detail_id | string | 调用企业付款API时，微信系统内部产生的单号 |
 | status | string | 转账状态<br/>SUCCESS:转账成功<br/>FAILED:转账失败<br/>PROCESSING:处理中 |
 | reason | string | 如果失败则有失败原因 |
@@ -183,17 +167,9 @@ WechatPayApi 实例对象。
 | --- | --- | --- |
 | return_code | string | SUCCESS/FAIL<br/>此字段是通信标识，非交易标识，交易是否成功需要查看result_code来判断 |
 | return_msg | string | 返回信息，如非空，为错误原因<br/>签名失败<br/>参数格式校验错误 |
-
-以下字段在return_code为SUCCESS的时候有返回
-
-| 名称 | 类型 | 描述 |
-| --- | --- | --- |
+| 以下字段在return_code为SUCCESS的时候有返回 |
 | result_code | string | 业务结果<br/>SUCCESS/FAIL |
-
-以下字段在return_code 和result_code都为SUCCESS的时候有返回
-
-| 名称 | 类型 | 描述 |
-| --- | --- | --- |
+| 以下字段在return_code 和result_code都为SUCCESS的时候有返回 |
 | re_openid | string | 接受收红包的用户<br/>用户在wxappid下的openid |
 | total_amount | string | 付款金额，单位分 |
 | send_listid | string | 红包订单的微信单号 |
@@ -233,17 +209,9 @@ WechatPayApi 实例对象。
 | --- | --- | --- |
 | return_code | string | SUCCESS/FAIL<br/>此字段是通信标识，非交易标识，交易是否成功需要查看result_code来判断 |
 | return_msg | string | 返回信息，如非空，为错误原因<br/>签名失败<br/>参数格式校验错误 |
-
-以下字段在return_code为SUCCESS的时候有返回
-
-| 名称 | 类型 | 描述 |
-| --- | --- | --- |
+| 以下字段在return_code为SUCCESS的时候有返回 |
 | result_code | string | 业务结果<br/>SUCCESS/FAIL |
-
-以下字段在return_code 和result_code都为SUCCESS的时候有返回
-
-| 名称 | 类型 | 描述 |
-| --- | --- | --- |
+| 以下字段在return_code 和result_code都为SUCCESS的时候有返回 |
 | total_amount | string | 付款总金额，单位分 |
 | send_listid | string | 微信红包订单号 |
 | re_openid | string | 接受收红包的用户<br/>用户在wxappid下的openid |
@@ -273,17 +241,9 @@ WechatPayApi 实例对象。
 | --- | --- | --- |
 | return_code | string | SUCCESS/FAIL<br/>此字段是通信标识，非交易标识，交易是否成功需要查看result_code来判断 |
 | return_msg | string | 返回信息，如非空，为错误原因<br/>签名失败<br/>参数格式校验错误 |
-
-以下字段在return_code为SUCCESS的时候有返回
-
-| 名称 | 类型 | 描述 |
-| --- | --- | --- |
+| 以下字段在return_code为SUCCESS的时候有返回 |
 | result_code | string | 业务结果<br/>SUCCESS/FAIL |
-
-以下字段在return_code 和result_code都为SUCCESS的时候有返回
-
-| 名称 | 类型 | 描述 |
-| --- | --- | --- |
+| 以下字段在return_code 和result_code都为SUCCESS的时候有返回 |
 | detail_id | string | 使用API发放现金红包时返回的红包单号 |
 | status | string | SENDING:发放中 <br/>SENT:已发放待领取 <br/>FAILED：发放失败 <br/>RECEIVED:已领取 <br/>RFUND_ING:退款中 <br/>REFUND:已退款 |
 | send_type | string | API:通过API接口发放 <br/>UPLOAD:通过上传文件方式发放 <br/>ACTIVITY:通过活动方式发放 |
