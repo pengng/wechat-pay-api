@@ -1,6 +1,4 @@
-# wechat-pay-api
-
-wechat payment tool package
+# wechat-pay-api 微信支付接口
 
 ### Usage
 
@@ -11,22 +9,22 @@ npm i wechat-pay-api -S
 ```javascript
 const Pay = require('wechat-pay-api')
 const api = new Pay({
-  wxappid: '',
-  mch_id: '',
-  key: '',
-  pfx: '',
-  client_ip: ''
+    wxappid: '',
+    mch_id: '',
+    key: '',
+    pfx: '',
+    client_ip: ''
 })
 
 api.payToUser({
-  openid: 'user openid',
-  amount: 100,
-  desc: '测试付款'
+    openid: 'user openid',
+    amount: 100,
+    desc: '测试付款'
 }, (err, result) => {
-  if (err) {
-    return console.error(err)
-  }
-  console.log(result)
+    if (err) {
+        return console.error(err)
+    }
+    console.log(result)
 })
 ```
 
